@@ -22,6 +22,12 @@ CAPTURAS DE COMO SE HIZO EL PROCESO EN POSTMAN
 
 Estructura del repositorio
 - Basado en la implementacion actual
+
 src/auth --> Son los controladores y guardias de autenticacion
+
+
 src/common --> Middlewares de log y filtros de excepcion globales
+
+
 src/common/constants.ts --> La configuracion de tiempos y limites
+
