@@ -9,7 +9,6 @@ import { RATE_LIMITS } from './common/constants';
   imports: [
     ThrottlerModule.forRoot([{
       // En Nest 11 se usa 'ttl' en segundos (o milisegundos según la versión exacta)
-      // Si RATE_LIMITS.GLOBAL_TTL es 60000.
       ttl: 60000, 
       limit: 10,
     }]),
