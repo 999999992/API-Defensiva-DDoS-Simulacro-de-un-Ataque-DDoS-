@@ -15,7 +15,7 @@ import { RATE_LIMITS } from './common/constants';
     AuthModule,
   ],
   providers: [
-    Reflector, // Esto soluciona el error de dependencias
+    Reflector,
     {
       provide: APP_GUARD,
       useClass: ThrottlerGuard,
