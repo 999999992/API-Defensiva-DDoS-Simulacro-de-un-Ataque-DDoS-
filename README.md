@@ -19,3 +19,9 @@ CAPTURAS DE COMO SE HIZO EL PROCESO EN POSTMAN
 <img width="934" height="632" alt="image" src="https://github.com/user-attachments/assets/27052278-abff-4329-aff1-63d93c3af50d" />
 <img width="938" height="635" alt="image" src="https://github.com/user-attachments/assets/c8ca5431-820b-4413-838c-c17416f826ca" />
 <img width="940" height="607" alt="image" src="https://github.com/user-attachments/assets/c761eeb5-4d08-45c4-955b-d857f652ee5c" />
+
+Estructura del repositorio
+- Basado en la implementacion actual
+src/auth --> Son los controladores y guardias de autenticacion
+src/common --> Middlewares de log y filtros de excepcion globales
+src/common/constants.ts --> La configuracion de tiempos y limites
