@@ -8,9 +8,12 @@ Este es un proyecto que implementa una capa de seguridad avanzada en NestJS dise
  Proceso de instalación
 
 1 - Ejecutar npm install para instalar dependencias como @nestjs/throttler.
+
 2 - Iniciar la aplicación con npm run start:dev.
 
 CAPTURAS DE COMO SE HIZO EL PROCESO EN POSTMAN
+- Para vertificar el funcionamiento de el bloque se debe utilizar el metodo POST, porque si lo haces en GET, no va a funcionar.
+- Ir a donde dice Body seleccionas el raw y despues le das a donde dice JSON.
 <img width="980" height="510" alt="image" src="https://github.com/user-attachments/assets/d3ddc417-aba0-4856-963c-f18d69e1cf5f" />
 <img width="1186" height="507" alt="image" src="https://github.com/user-attachments/assets/04937489-d1be-4b3f-9920-d3b8dff31a48" />
 <img width="934" height="632" alt="image" src="https://github.com/user-attachments/assets/27052278-abff-4329-aff1-63d93c3af50d" />
